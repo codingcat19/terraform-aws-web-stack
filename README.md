@@ -2,7 +2,7 @@
 
 This project provisions a modular, secure, and Free Tier eligible infrastructure on AWS using Terraform. It features a custom VPC, an Ubuntu-based Nginx web server, and remote state management via S3.
 
-## 🏗 Architecture
+## Architecture
 - **VPC Module:** Custom VPC, Public Subnet, Internet Gateway, and Route Tables.
 - **EC2 Module:** Ubuntu 24.04 LTS instance with Nginx pre-installed via User Data.
 - **Security:** Security groups allowing HTTP (80) and SSH (22) traffic.
@@ -10,7 +10,7 @@ This project provisions a modular, secure, and Free Tier eligible infrastructure
 
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - AWS CLI configured with your credentials.
@@ -35,3 +35,6 @@ terraform plan
 terraform apply -auto-approve
 ```
 
+## Useful Commands
+`terraform output:` View the public IP/URL of your server.
+`terraform destroy:` Tear down all resources to save costs.
