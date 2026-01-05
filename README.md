@@ -36,5 +36,5 @@ terraform apply -auto-approve
 ```
 
 ## Useful Commands
-`terraform output:` View the public IP/URL of your server.
+`terraform output:` View the public IP/URL of your server.<br>
 `terraform destroy:` Tear down all resources to save costs.
